@@ -1,14 +1,27 @@
 # Hyvor Point - Open-source IP Geolocation Database & Libraries
 
-Hyvor Point is an open-source IP geolocation database published under the **Open Data Commons Open Database License (ODbL)**. The data is built from ground up using many public sources, for example, WHOIS data. Data is updated every month. The database is available in CSV, JSON, and MMDB formats. Our goal is to provide a highly accurate free and open-source IP geolocation database for developers. Visit [**point.hyvor.com**](https://point.hyvor.com) for more information.
+Hyvor Point is an open-source IP geolocation database published under the **Open Data Commons Open Database License (ODbL)**. The data is built from ground up using many public sources (WHOIS data, etc.). Data is updated monthly. The database is available in CSV, JSON, and MMDB formats. Our goal is to provide a highly accurate free and open-source IP geolocation database for developers.
 
-It also comes with client libraries for popular programming languages:
+Visit [**point.hyvor.com**](https://point.hyvor.com) for more information.
+
+## Client Libraries
+
+We provide client libraries for popular programming languages to make it easy to use the database in your applications. All of these libraries handle the database files and provide easy-to-use functions to get the location of an IP address.
 
 -   [Python](TODO)
 -   [Node.js](TODO)
 -   [PHP](TODO)
 -   [Java](TODO)
 -   [Ruby](TODO)
+
+### Example in Python
+
+```python
+from hyvor_point import HyvorPoint
+
+point = HyvorPoint()
+print(point.get('
+```
 
 ## License
 
