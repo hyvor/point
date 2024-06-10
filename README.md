@@ -17,10 +17,19 @@ We provide client libraries for popular programming languages to make it easy to
 ### Example in Python
 
 ```python
-from hyvor_point import HyvorPoint
+from hyvor_point import IP
 
-point = HyvorPoint()
-print(point.get('
+point = IP('34.49.208.18')
+
+location = point.location()
+
+print(location.country)
+print(location.state)
+print(location.city)
+print(location.latitude)
+print(location.longitude)
+print(location.continent)
+print(location.timezone)
 ```
 
 ## License
