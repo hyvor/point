@@ -2,7 +2,7 @@
 
 [WORK IN PROGRESS]
 
-Hyvor Point is an open-source IP geolocation database. The data is built from ground up using many public sources (WHOIS data, etc.) and our own methods. Data is updated monthly. The database is available in CSV, JSON, and MMDB formats. Our goal is to provide a highly accurate free and open-source IP geolocation database for developers.
+Hyvor Point is an open-source IP geolocation database. The data is built from ground up using many public sources (WHOIS data, etc.) and our own methods, and is updated monthly. The database is available in CSV, JSON, and MMDB formats. Our goal is to provide a highly accurate free and open-source IP geolocation database for developers.
 
 Visit [**point.hyvor.com**](https://point.hyvor.com) for more information.
 
@@ -16,7 +16,7 @@ We provide client libraries for popular programming languages to make it easy to
 -   [Java](TODO)
 -   [Ruby](TODO)
 
-#### Example in Python 🐍
+#### Example in Python
 
 ```python
 from hyvor_point import IP
@@ -35,16 +35,24 @@ print(location.timezone)
 
 ### License 📜
 
-The database is licensed under the **Open Data Commons Open Database License (ODbL) 1.0**.
+The database is licensed under the **Open Data Commons Open Database License (ODbL)** (version 1.0).
 
--   [LICENSE](LICENSE)
--   [Easy-to-read summary](https://opendatacommons.org/licenses/odbl/summary/) of the license
+-   [ODbL LICENSE](LICENSE)
+-   [Easy-to-read summary of ODbL](https://opendatacommons.org/licenses/odbl/summary/)
+
+These are the key points of the license (not a substitute for the full license):
+
+-   **Free to Use** - You are free to use the database in any way you want.
+-   **Attribution** - You must attribute any public use of the database, or works produced from the database, by giving credit to Hyvor Point.
+-   **Share Alike** - If you make any changes to the database, you must share the changes under the same license.
 
 All client libraries are licensed under the **MIT License**.
 
-### Our vision & sustainability 🌱
+### Sustainability 🌱
 
-The database will forever be free and open-source. We are committed to keeping it up-to-date and accurate. There won't be a more accurate paid version of the database. Whatever the accuracy we achieve, it will be available for free.
+The database will **forever be free and open-source**. We are committed to keeping it up-to-date and accurate. We will not publish paid version of the database. Whatever the accuracy we achieve, it will be available for everyone for free.
+
+Here are some ways you can support us and help us keep the project sustainable:
 
 -   Use our paid SaaS
     -   [Hyvor Talk](https://talk.hyvor.com) - commenting platform
