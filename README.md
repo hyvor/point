@@ -2,7 +2,14 @@
 
 [WORK IN PROGRESS]
 
-Hyvor Point is an open-source IP geolocation database. The data is built from ground up using many public sources (WHOIS data, etc.) and our own methods, and is updated monthly. The database is available in CSV, JSON, and MMDB formats. Our goal is to provide a highly accurate free and open-source IP geolocation database for developers.
+Hyvor Point is an open-source IP geolocation database. The data is built from ground up using many public sources (WHOIS data, etc.) and our own methods. The database is updated monthly, and is available in CSV and MMDB formats. Our goal is to provide a highly accurate free and open-source IP geolocation database for developers.
+
+### Features 🌟
+
+-   **No Cloud - No API Keys** - There is no cloud service. You download the database and use it in your applications.
+-   **Highly Accurate** - We use a collection of methods to ensure the accuracy of the data.
+-   **Regular Updates** - The database is updated monthly.
+-   **Free & Open-source** - The database is free and open-source.
 
 Visit [**point.hyvor.com**](https://point.hyvor.com) for more information.
 
